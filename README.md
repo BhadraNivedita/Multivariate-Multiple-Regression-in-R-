@@ -39,4 +39,4 @@ vcov(model)
 library(car)
 anova(model)
 ```
-
+The anova() function automatically detects that model is a multivariate multiple regression object. In this model predictors are tested assuming all other predictors are already in the model.  We can rerun the analyses looking into the results from this test with reduced number of variables. 
